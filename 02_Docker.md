@@ -22,7 +22,7 @@ Wanneer we images gaan builden, wordt de laag gecached.
 + **Betere manier:** 
 ```Dockerfile
  # Laag 1 = onveranderd = cache gebruiken
-COPY *.csproj .wordt gebruikt!
+COPY *.csproj .
 RUN dotnet restore
 
 # Laag 2 = veranderd = geen cache
