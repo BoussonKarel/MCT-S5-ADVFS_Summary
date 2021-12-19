@@ -50,7 +50,7 @@ Image maken van een bestaande container
 
 *Extra: alpine Linux vaak kleiner dan andere.*
 
-## Docker registes
+## Docker registries
 - Docker registry server
   - Docker Hub server
   - AWS, Azure...
