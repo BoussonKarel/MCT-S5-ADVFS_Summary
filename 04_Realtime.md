@@ -55,8 +55,8 @@ Pro's
   - howest/kwe/a/sensors/temperature
 - Devices have a subscription on one or more topics
 
-![Single-level wildcard](../images/5256edd76b7dd53eb715b9978a8746c39ba2a9c61ad5aca294d0dea51fd5f302.png)  
-![Mutli-level wildcard](../images/837ffcb38e9d88769f38c159ce4a58116ea5e0fcc892f903dfb48012f51b0c88.png)  
+![Single-level wildcard](images/5256edd76b7dd53eb715b9978a8746c39ba2a9c61ad5aca294d0dea51fd5f302.png)  
+![Mutli-level wildcard](images/837ffcb38e9d88769f38c159ce4a58116ea5e0fcc892f903dfb48012f51b0c88.png)  
 
 ### Quality of Service (QoS)
 0. Fire And Forget (At most once)

@@ -19,7 +19,7 @@ GraphQL provides a **complete** and **understandable description** of the data i
 - **Over fetching** the REST API
   - *Get some properties of a show and some properties of it's episodes*
 
-![picture 3](../images/79ed19ebeb40bb5e10af8ff514a3491718df95bb390a869bfd6b20595dba55f3.png)
+![picture 3](images/79ed19ebeb40bb5e10af8ff514a3491718df95bb390a869bfd6b20595dba55f3.png)
 
 ### Examples
 **Ask what you need**
@@ -187,7 +187,7 @@ type Mutation {
 ## Introspection
 Query the structure of your GraphQL API = **introspection**
 
-![picture 4](../images/11d5bab6b4eb5faba450f37d8be7bdf24dda63c8b3262ae32732b31c4ed81947.png)  
+![picture 4](images/11d5bab6b4eb5faba450f37d8be7bdf24dda63c8b3262ae32732b31c4ed81947.png)  
 
 ## Recap
 - Strongly typed

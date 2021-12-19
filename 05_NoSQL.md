@@ -35,7 +35,7 @@
   + Harder to write (less known)
 
 
-![picture 1](../images/e706b7781a8d269d4fc601b0e072fc50db95575c2717c5af2da8c39870598542.png)
+![picture 1](images/e706b7781a8d269d4fc601b0e072fc50db95575c2717c5af2da8c39870598542.png)
 
 ### Time-Series database
 *InfluxDB, OpenTSDB*

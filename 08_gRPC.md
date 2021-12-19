@@ -12,7 +12,7 @@
   - Hard integration testing
 
 ## APIs
-![picture 14](../images/f588474cb2d66491de89b8a2658c5222c99da901818c58942a7e74288b06399f.png)  
+![picture 14](images/f588474cb2d66491de89b8a2658c5222c99da901818c58942a7e74288b06399f.png)  
 - Old way: RPC (Remote Procedure Call)
   - Since 1970
   - Request-response protocol
@@ -21,7 +21,7 @@
   - Made for (possibly) slow networks
     - Timeout
 
-![picture 15](../images/490f38f3305e9916f73540bdc1326da7d32107cc25596e4b88adf2f3aea56255.png)  
+![picture 15](images/490f38f3305e9916f73540bdc1326da7d32107cc25596e4b88adf2f3aea56255.png)  
 
 + Classic / Modern web: REST
   + Uniform interface
@@ -73,11 +73,11 @@ In gRPC, a client application can directly call a method on a server application
 - In-Born Code Generation Instead of using Third-Party Tools Like Swagger
 - 7-10x faster message transmission
 
-![picture 17](../images/d43b1340dcce94461d1abadb56370c10d801478a8c3f9f2d15c08d68243d8269.png)  
+![picture 17](images/d43b1340dcce94461d1abadb56370c10d801478a8c3f9f2d15c08d68243d8269.png)  
 
 
 ### HTTP/1.1 vs HTTP/2
-![picture 16](../images/0414eaf9a59c9e2f5abebc388fee38fcc90be153d21990debe69ac4ef70b16e6.png)  
+![picture 16](images/0414eaf9a59c9e2f5abebc388fee38fcc90be153d21990debe69ac4ef70b16e6.png)  
 
 ### Protocol Buffers (proto3)
 - Binary serialization mechanism for structured data
@@ -88,11 +88,11 @@ In gRPC, a client application can directly call a method on a server application
 + JSON (minify > ascii to binary)
   + 440 bytes
 
-![picture 18](../images/99e74cc7edb65e5dda53defd028a07ae86d1cc7e44d4d220a2bd0f9970899232.png)  
+![picture 18](images/99e74cc7edb65e5dda53defd028a07ae86d1cc7e44d4d220a2bd0f9970899232.png)  
 
 
 **Protobuf (hex)**
-![picture 19](../images/8da6945b16cee2ae9b2836c1c97fcd34bfd123a3dd85a5917c838c7cb29865d4.png)  
+![picture 19](images/8da6945b16cee2ae9b2836c1c97fcd34bfd123a3dd85a5917c838c7cb29865d4.png)  
 
 ```
 0A084A6F686E20446F6512106A646F65406578616D706C652E636F6D181D
@@ -110,7 +110,7 @@ Each field has a
 - Name
 - Field number (used for serialization)
 
-![picture 20](../images/e2d9d4d5c8974428a77be2d5cf025fd5dd54c02544aec4bee96203a88a4a2094.png)  
+![picture 20](images/e2d9d4d5c8974428a77be2d5cf025fd5dd54c02544aec4bee96203a88a4a2094.png)  
 
 ### Protocol Buffers: Binary encoding
 - Binary encoding
@@ -124,7 +124,7 @@ Each field has a
 ```
 00001010 00001000 01001010 01101111 01101000 01101110 00100000 01000100 01101111 01100101
 ```
-![picture 21](../images/e41ae66075e4061089bd96a6bcd1d0778b214e65691c721d4c4d2287f10c51c8.png)  
+![picture 21](images/e41ae66075e4061089bd96a6bcd1d0778b214e65691c721d4c4d2287f10c51c8.png)  
 
 ### Protocol Buffers: Default Values
 - For **string**, default is an **empty string**
@@ -138,23 +138,23 @@ Each field has a
 - .proto file
 - Describes the methods (service) and data (message)
 
-![picture 22](../images/0d79bd49fec11203d16485aa8719d24bc705a4e890d3fd1c0c45e57be4208a6a.png)  
+![picture 22](images/0d79bd49fec11203d16485aa8719d24bc705a4e890d3fd1c0c45e57be4208a6a.png)  
 
 Alles is afgelijnd, je weet wat je binnenkrijgt of gaat krijgen.
 
 Services zijn "routes" zoals REST API.
 
 - Build for specific language (via protoc)
-![picture 25](../images/c859e3fac8d8faea35bf08b3ec65b11b52c3d62c9add4bcfc6fcb773e4f0122f.png)  
+![picture 25](images/c859e3fac8d8faea35bf08b3ec65b11b52c3d62c9add4bcfc6fcb773e4f0122f.png)  
 
 
 ### Python stub
-![picture 23](../images/f7a968f0deb6c858c9b4d85e6b51834e8e870e43ecabf9d0afbb20ff3200d733.png)  
+![picture 23](images/f7a968f0deb6c858c9b4d85e6b51834e8e870e43ecabf9d0afbb20ff3200d733.png)  
 
 Klasse binnentrekken en methodes erop kunnen gebruiken.
 
 ### gRPC - request types
-![picture 24](../images/fcf5a35d8227a8b7820179cf0b04ab68162a828ae714de594bf5269743faf561.png)
+![picture 24](images/fcf5a35d8227a8b7820179cf0b04ab68162a828ae714de594bf5269743faf561.png)
 
 Unary, Client Streaming, Server Streaming, Bidirectional Streaming
 
@@ -195,7 +195,7 @@ Python, C#, Dart, Go
 - Not native (too little control over http2 in browser)
 - Via proxy
 
-![picture 26](../images/bb09bac911fb9759f6bf252a62186489a4fd32a4ef724f1c5ac7c10878cc728d.png)  
+![picture 26](images/bb09bac911fb9759f6bf252a62186489a4fd32a4ef724f1c5ac7c10878cc728d.png)  
 
 ### gRPC: growing API
 - Name of fields are less important than field numbers (**no duplicate numbers!**)
