@@ -77,8 +77,7 @@ query {
 |Rest|GraphQL|
 |--|--|
 |Multiple round trips to request the information from **multiple** endpoints|1 request to 1 endpoint|
-|**Over-** and **under**fetching|You only **get** what you **ask**
-|
+|**Over-** and **under**fetching|You only **get** what you **ask**|
 |Frontend developer has to **rely** on the backend developer (for endpoints and queries)|The frontend developer is **independent** of the backend developer
 |
 

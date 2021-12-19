@@ -12,7 +12,7 @@
   - *InfluxDB, Prometheus*
 - **Blob**
   - Video, Audio, Big files
-  - *~ File Storage, Azure Blob Storage, Amazon S3*
+  - * ~ File Storage, Azure Blob Storage, Amazon S3*
 
 ### Relationele database
 *MySQL, PostgreSQL, MSSQL*
